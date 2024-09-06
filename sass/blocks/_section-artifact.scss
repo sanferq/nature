@@ -1,0 +1,67 @@
+.section-artifact {
+    margin-bottom: 65px;
+}
+
+
+.artifact-title {
+    font-family: 'Cormorant';
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 33px;
+}
+
+.artifact-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artifact-img {
+    width: 840px;
+    height: 493px;
+}
+
+.artifacts-info {
+    width: 255px;
+    height: 493px;
+    padding: 18px 16px 25px;
+    background-color: #bae249;
+}
+
+.artifact-info__title {
+    font-family: 'Cormorant';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #0b1919;
+}
+
+.artifact-text {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    color: #506829;
+    margin-bottom: 32px;
+}
+.artifact-text-2 {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    color: #506829;
+    margin-bottom: 74px;
+}
+
+.artifact-arrow {
+    display: flex;
+    align-self: baseline;
+}
+
+.arrow-title {
+    
+    font-size: 16px;
+    font-weight: bold;
+    color: #0b1919;
+    margin-right: 8px;
+}

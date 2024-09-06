@@ -1,0 +1,31 @@
+.card-button {
+    width: 145px;
+    height: 45px;
+    margin-bottom: 24px;
+    text-align: center;
+    background-color:#1d2f30;
+    color: #bae249;
+    font-size: 16px;
+    border: solid 1px #bae249;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: #bae249;
+        color: #0b1919;
+
+    }
+
+}
+
+.form-button {
+    
+    background-color: #bae249;
+    color: #0b1919;
+    font-size: 16px;
+    border: solid 1px #bae249;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color:#1d2f30;
+        color: #bae249;
+
+    }
+}

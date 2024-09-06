@@ -1,0 +1,55 @@
+.header {
+    position: fixed; /* Закрепляет шапку в верхней части окна */
+    top: 0; /* Располагает шапку в самом верху */
+    left: 0;
+    width: 100%; /* Задает ширину шапки на всю ширину экрана */
+    z-index: 1000; /* Делает шапку выше по слою относительно других элементов */
+    backdrop-filter: blur(7px);
+    background-color: rgba(29, 47, 48, 0.3);
+}
+.header__wrapper {
+    display: flex;
+    padding-top: 17px;
+    padding-bottom: 19px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.item-nav {
+    margin-right: 64px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-btn {
+    margin-right: 64px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.search {
+
+}
+
+.buy {
+
+}
