@@ -1,9 +1,9 @@
 .header {
-    position: fixed; /* Закрепляет шапку в верхней части окна */
-    top: 0; /* Располагает шапку в самом верху */
+    position: fixed; 
+    top: 0; 
     left: 0;
-    width: 100%; /* Задает ширину шапки на всю ширину экрана */
-    z-index: 1000; /* Делает шапку выше по слою относительно других элементов */
+    width: 100%; 
+    z-index: 1000; 
     backdrop-filter: blur(7px);
     background-color: rgba(29, 47, 48, 0.3);
 }
@@ -30,9 +30,13 @@
 
 .item-nav {
     margin-right: 64px;
+    transition: all ease-in-out 0.3s;
     &:last-child {
         margin-right: 0;
     }
+}
+.item-nav:hover {
+    color: #bae249;
 }
 
 .header-menu {

@@ -1,11 +1,11 @@
 .footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#0b1919;
+    background-color: #0b1919;
 }
 
 .social {
-
+    /* Можете добавить стили сюда, если нужно */
 }
 
 .social-row {
@@ -14,8 +14,18 @@
 }
 
 .social-item {
+    display: inline-block;
     margin-right: 32px;
-    &:last-child {
-        margin-right: 0;
-    }
+}
+
+.social-item:last-child {
+    margin-right: 0;
+}
+
+.social-item img {
+    transition: filter 0.3s ease;
+}
+
+.social-item:hover img {
+    filter: brightness(0) saturate(100%) invert(77%) sepia(69%) saturate(587%) hue-rotate(47deg) brightness(101%) contrast(90%);
 }
